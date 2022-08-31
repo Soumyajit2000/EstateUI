@@ -1,0 +1,13 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+justify-content: space-around;
+}
+
+label{
+  font-size: 25px;
+  margin: 4px 1px;
+}

@@ -1,0 +1,46 @@
+table{
+    
+    background-color: rgba(15, 46, 73, 0.596);
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px black;
+    margin-bottom: 40px;
+  }
+
+  tr{
+    transition: ease-in-out 0.2s;
+    color: aliceblue;
+  }
+
+  tr:hover{
+    background-color: rgba(201, 146, 18, 0.8);
+  }
+  
+  td{
+    margin: 5px;
+    padding: 10px 5px;
+    color: aliceblue;
+    border: 1px solid salmon;
+
+  }
+
+  thead tr th{
+    border: 1px solid salmon;
+    padding: 10px 0;
+    background-color: rgba(15, 46, 73, 0.796);
+  }
+
+  .tbig{
+    width: 1000px;
+  }
+
+  .tsmall{
+    padding: 5px;
+  }
+
+  th{
+    padding: 10px;
+    color: aliceblue;
+  }

@@ -1,0 +1,32 @@
+.btn-group{
+  display: flex;
+  justify-content: space-around;
+}
+
+.Addbutton {
+    background-color: rgba(18, 29, 66, 0.7);
+    border: none;
+    color: #000201;
+    padding: 15px 15px;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    margin-right:10px ;
+    margin-top: 80px;
+    height: 100px;
+    width: 350px;
+    border: 2px solid var(--secondary-dark);
+    transition: all ease-in 0.2s;
+  }
+.Addbutton:hover {
+  background-color: rgba(251, 255, 0, 0.688);
+  color: black;
+  }
+  
+  body{
+    background-image: url("./contactimg1.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+  }
+
